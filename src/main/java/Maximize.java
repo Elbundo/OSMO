@@ -24,7 +24,7 @@ public class Maximize {
             }
             System.out.println(coin + "(" + count + " = " + count * stg.getPriceUSD(coin) + "$)");
         }
-        if(step == 10){
+        if(step == 3){
             return;
         }
         curRoute.addLast(new CoinPricePair(coin, count, count * stg.getPriceUSD(coin)));
